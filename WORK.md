@@ -17,20 +17,20 @@ Afin de répondre au mieux aux besoins de chaque site web, il existe 4 différen
 ## Hébergement mutualisé
 
 En hébergement __mutualisé__, le site web est hébergé en __colocation__ avec d’autres sites web sur la machine hôte. Ainsi, les ressources de la machine sont partagées entre les différents sites webs qui y résident. Il s’agit du plus simple à utiliser, et convient à des petits sites ayant un faible trafic. En revanche, il entraîne de __fortes limitations__ en terme de performance, et la machine hôte n'est pas du tout personnalisable.
-__Note:__ de moins en moins d'hébergements mutualisés existente. En effet, il est facile d'abuser des ressources d'une machine aux dépends des autres serveurs hébergés. D'autres types d'hébergements remplacent petit à petit ce mode d'hébergement. On peut ainsi avoir un hébergement solide pour moins de 3 euros par mois. Par exemple, Scaleway propose des hébergements dédiés à 2.99 euros par mois.
+__Note:__ de moins en moins d'hébergements mutualisés existente. En effet, il est facile d'abuser des ressources d'une machine aux dépends des autres serveurs hébergés. Pour cette raison, d'autres types d'hébergements gagnent en popularité, aux dépends de ce mode d'hébergement.
 
 Caractéristiques d’un serveur mutualisé:
 - Accès à une portion des ressources hardware
 - Préconfiguration disponible
 - Configuration et personnalisation indisponibles
-- Serveur fragile
+- Serveur perturbé par une consommation excessive de ressources par certains sites web
 - Prix faible (souvent moins d'1 euro)
 
 En résumé: notre site web est hébergé __facilement et à bas coût__, mais les possibilités de personnalisation de la machine sont __très limitées voire inexistantes__ et notre site web est à la merci de pics de consommations de ressources de la part d'autres sites web.
 
 ## Hébergement dédié:
 
-Lorsqu’un client acquiert un serveur __dédié__, il dispose de __toute la machine hôte__. Il peut donc la configurer et l’administrer de manière très précise, en fonction de ses besoins. Ce mode d'hebergement se démocratise de plus en plus aux dépends de l'hébergement mutualisé, car il est financièrement très accessible.
+Lorsqu’un client acquiert un serveur __dédié__, il dispose de __toute la machine hôte__. Il peut donc la configurer et l’administrer de manière très précise, en fonction de ses besoins. Ce mode d'hebergement se démocratise de plus en plus aux dépends de l'hébergement mutualisé, car il est financièrement très accessible. Il est possible d'avoir un hébergement solide pour moins de 3 euros par mois. Par exemple, Scaleway propose des hébergements dédiés à 2.99 euros par mois.
 
 Caractéristiques d’un serveur dédié:
 - Accès à la machine en entière
