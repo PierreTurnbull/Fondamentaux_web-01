@@ -8,10 +8,11 @@ En hébergeant un site web sur notre machine, il devient plus fastidieux d’uti
 Pour pallier à ce problème, il suffit d’__héberger__ le site web sur une __autre machine__. Pendant ce temps, nous pouvons disposer de toutes les ressources de la __notre__.
 Plutôt que d’acheter une machine, nous faisons donc appel à des __services d’hébergement__; il s'agit de __louer__ une machine pour disposer de ses ressources. Des services d’hébergement permettent, pour un coût minime _(par rapport au fait d’acheter une machine)_, d’héberger des sites web.
 Afin de répondre au mieux aux besoins de chaque site web, il existe 4 différents types d’hébergement:
-__- dédié
-- mutualisé
-- VPS
-- Cloud__
+
+- __dédié__
+- __mutualisé__
+- __VPS__
+- __Cloud__
 
 ## Hébergement mutualisé
 
