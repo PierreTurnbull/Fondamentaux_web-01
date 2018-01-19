@@ -1,13 +1,13 @@
-#TABLE DES MATIERES
+# TABLE DES MATIERES
 
-##Introduction
+## Introduction
 
-##Hébergement mutualisé
+## Hébergement mutualisé
 
-##Hébergement dédié
+## Hébergement dédié
 
-##Hébergement en cloud
+## Hébergement en cloud
 
-##Hébergement en VPS
+## Hébergement en VPS
 
-##Exemples
+## Exemples
