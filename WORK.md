@@ -39,13 +39,33 @@ Caractéristiques d’un serveur dédié:
 
 En résumé: on a un accès __sans limitation__ aux ressources hardware et software du serveur. C’est généralement __plus cher__ qu'un hébergement mutualisé et ça requiert des __connaissances pointues__ pour le configurer et l’administrer. En revanche, notre site web est très stable car il ne subit pas les conséquences des abus de colocataires, comme c'est le cas en hébergement mutualisé.
 
+## Hébergement en VPS, ou Virtual Private Server
+
+L'hébergement en VPS ressemble à l'hébergement mutualisé, en ce qu'il permet d'héberger __plusieurs sites web__ sur __une__ machine. Seulement, plutôt que de tous les héberger côte-à-côte, il s'agit de créer des __machines virtuelles__ sur lesquelles on héberge chaque serveur. Une machine virtuelle, c'est une __infrastructure logicielle__ qui permet de simuler un environnement informatique. Ainsi, avec plusieurs machines virtuelles sur une machine physique, on peut agir comme si on avait plusieurs petites machines physiques.
+A chaque VPS est allouée une partie des ressources de la machine qui les contient. Ainsi, chaque site web se débrouille avec les ressources auxquelles il a accès sur son VPS, mais il ne __peut pas empiéter__ sur les ressources des autres sites web, comme c'est le cas dans un hébergement mutualisé.
+De plus, le VPS est __fortement configurable__, car le client a accès à la racine du VPS, et donc à toute son __infrastructure__.
+Finalement, __l'isolation complète__ du VPS par rapport aux autres VPS constitue un atout de __sécurité__ indéniable. Par exemple si un site web subit une attaque DDOS, qui constitue à le surcharger, cela n'aura d'influence que sur le VPS qui l'héberge, et aucune influence sur les performances des autres VPS.
+
+Caractéristiques d'un serveur VPS:
+- Accès aux ressources nécessaires, sans perturbation
+- Configuration très pointue possible
+- Bonne sécurité dûe à l'isolation de chaque serveur
+- Prix faible (facilement moins de 3 euros)
+
 ## Hébergement en cloud
 
-*TODO*
+L'hébergement cloud se base sur le même principe de __virtualisation__ que l'hébergement VPS. Seulement, les différentes machines virtuelles ne sont pas créées sur une machine physique mais sur __plusieurs__. Les machines virtuelles ainsi créées sur plusieurs machines physiques permettent d'héberger un site web sur __plusieurs machines physiques__ en même temps. Cela permet d'héberger un site à très __fort trafic__ efficacement, et de limiter les __perturbations__ dûes à une panne.
+L'hébergement cloud permet en outre au client de définir les performances __dont il a besoin__ à chaque instant. Ainsi, les ressources allouées par le serveur pour le site web seront plus ou moins importantes, __en fonction des besoins__. Le client paie uniquement pour les ressources qu'il __utilise__, en fonction du trafic sur son site web, ainsi l'hébergement cloud est __flexible__ et n'engendre __pas de gâchi__. En ce sens, on dit que l'hébergement en cloud est un __service__: nous ne payons pas pour le _bien_ qu'est la machine, mais pour le _service_ qu'est l'allocation dynamique de ressources pour notre site web.
 
-## Hébergement en VPS
+Il existe trois services différents d'hébergement cloud :
+- SaaS (Software as a Service) : l'utilisateur reçoit à travers le Cloud un accès à une ressource matérielle telle qu'un ordinateur, un réseau ou même un espace de sauvegarde. Il est libre d'utiliser les logiciels et est responsable de l'installation et de la surveillance.
+- PaaS (Platform as a Sercive) : le fournisseur met à disposition de l'utilisateur un environnements de logiciels sous la forme de "frameworks" et s'occupe de sa maintenance. L'utilisateur peut développer et gérer ses propres applications sur cette plateforme.
+- IaaS (Infrastructure as a Service) : L'utilisateur peut avoir accès à un logiciel mis à disposition, et ne doit ni en gérer les mises à jour, et ni les fonctionnalités.
 
-*TODO*
+Caractéristiques d'un serveur en cloud:
+- solidité du serveur: comme le serveur est réparti sur plusieurs machines, si l'une d'entre elles tombe en panne, cela ne fait que diminuer les performances du serveur étant donné qu'il en reste plusieurs en fonctionnement
+- flexibilité du site web: les ressources allouées au site web peuvent changer en temps réel en fonction du trafic
+- flexibilité du prix: le client ne paie que ce qu'il utilise, pas plus
 
 ## Exemples
 
