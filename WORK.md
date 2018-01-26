@@ -41,11 +41,28 @@ En résumé: on a un accès __sans limitation__ aux ressources hardware et softw
 
 ## Hébergement en cloud
 
-*TODO*
+L'hébergement cloud  est le stockage des données sur un parc de serveurs fourni par un prestataire.  
+L'avantage est qu'on peut accéder aux données hébergées depuis n'importe où tant que l'on a une connexion à Internet.
+L'hébergement cloud permet aux clients de définir les performances dont ils ont besoin à chaque instant. 
+Celui ci peut à sa guise augmenter ou diminuer la performance des ses processeurs, sa capacité de mémoire ou d'espace disque. 
+L'utilisateur paye uniquement ce qu'il utilise en fonction du trafic sur son site, ce qui rend l'hébergement cloud flexible et bon marché. 
+
+Il existe trois services différents d'hébergement cloud : 
+ - SaaS (Software as a Service) : l'utilisateur reçoit à travers le Cloud un accès à une ressource matérielle telle qu'un ordinateur,
+     un réseau ou même un espace de sauvegarde. Il est libre d'utiliser les logiciels et est responsable de l'installation et de la surveillance. 
+- PaaS (Platform as a Sercive) : le fournisseur met à disposition de l'utilisateur un environnements de logiciels sous la forme de "frameworks" 
+     et s'occupe de sa maintenance. L'utilisateur peut développer et gérer ses propres applications sur cette plateforme. 
+- IaaS (Infrastructure as a Service) : L'utilisateur peut avoir accès à un logiciel mis à disposition, et ne doit ni en gérer les mises à jour, et ni les 
+     fonctionnalités.
+
 
 ## Hébergement en VPS
 
-*TODO*
+Un serveur VPS possède des caractéristiques spécifiques de stockage sur disque dur, quantité de RAM disponible et des performance des processeurs.
+Ce serveur virtuel n'utilise pas de matériel dédié, seulement un disque dur ou un processeur mais il accède à une ou plusieurs parties des ressources 
+matérielles. UN VPS possède des caractéristiques qui se distinguent des bases d'un serveur physique. 
+L'avantage du VPS est la répartition flexible des ressources du serveur physique. Cela permet de créer un serveur au stockage adapté exactement selon 
+les besoins. Il est ainsi souvent très avantageux de louer un VPS. Un VPS offre un accès à la racine du serveur et permet de définir soi même l'utilisation. 
 
 ## Exemples
 
